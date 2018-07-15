@@ -1,21 +1,38 @@
 <!DOCTYPE html>
-
-<html>
-<head>
-	<title>Cinomin Studios</title>
-	<link href="css/index.css" rel="stylesheet" type='text/css'>
-</head>
-
-<body>
-	<div>
-		<span>More to come soon...</span>
-		<img src="images/rawrburt.png">
-	</div>
-</body>
-
-<footer>
-	<div>
-		<span>2018 Cinomin Studios.</span>
-	</div>
-</footer>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Cinomin Studios">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#38747d">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cinomin Studios</title>
+  </head>
+  <body>
+    <div class="banner">
+      <img class="logo" src="images/logo.png" alt="Cinomin Studios logo">
+    </div>
+    <div class="container">
+      <h1 class="soon">Coming soon.<a href="javascript:rawr()">.</a>.</h1>
+      <div class="social">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+      </div>
+    </div>
+    <footer>
+      <span>&copy 2018 Cinomin Studios</span>
+    </footer>
+    <script>
+    function rawr() {
+      document.getElementsByClassName('container')[0].style.paddingTop = 0;
+      document.getElementsByClassName('banner')[0].style.display = "none";
+      document.getElementsByClassName('soon')[0].innerHTML = "<img height='200px' src='images/rawrburt.png'>";
+    }
+    </script>
+  </body>
 </html>
