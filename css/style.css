@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "FuturaScript";
+    src: url("fonts/Futura_Script_Normal.ttf") format("truetype");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: rgb(56, 116, 125);
+  color: white;
+  text-align: center;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+}
+
+#banner {
+  height: 200px;
+  width: 100%;
+  padding-top: 70px;
+}
+
+.logo {
+  max-height: 250px;
+}
+
+.container {
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  width: 75%;
+}
+
+#soon {
+  font-size: 30px;
+  font-family: "FuturaScript", sans-serif;
+}
+
+#soon a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media(max-width: 940px) {
+  #soon {
+    font-size: 25px;
+  }
+  #banner {
+    height: 150px;
+    padding-top: 50px;
+  }
+  .container {
+    padding-top: 150px;
+  }
+}
+@media(max-width: 510px) {
+  .container {
+    padding-top: 50px;
+  }
+  .fa {
+    margin-top: 50px;
+  }
+}
+
+.fa {
+  text-decoration: none;
+  font-size: 35px;
+  padding: 10px;
+  margin-top: 100px;
+  color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  padding: 30px;
+  text-align: center;
+}
