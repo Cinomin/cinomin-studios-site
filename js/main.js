@@ -4,15 +4,14 @@
 "use strict";
 
 (function() {
-  var soon = document.getElementsByClassName('soon')[0];
 
   // Easter egg
   document.getElementById("rawr").onclick = function() {
-      soon.innerHTML = "";
-      document.getElementsByClassName('banner')[0].style.display = "none";
-      document.getElementsByClassName('container')[0].style.paddingTop = 0;
-      var rawrburt = document.createElement("img")
-      rawrburt.src = "images/rawrburt.png";
-      soon.appendChild(rawrburt);
+      var container = document.getElementsByClassName('container')[0];
+      document.getElementById('soon').hidden = true;
+      document.getElementById('banner').hidden = true;
+      document.getElementById('burt').hidden = false;
+      container.style.paddingTop = 0;
+      container.style.width = "100%";
   }
 })();

@@ -27,7 +27,7 @@ img {
     height: auto;
 }
 
-.banner {
+#banner {
   height: 200px;
   width: 100%;
   padding-top: 70px;
@@ -44,22 +44,22 @@ img {
   width: 75%;
 }
 
-.soon {
+#soon {
   font-size: 30px;
   font-family: "FuturaScript", sans-serif;
 }
 
-.soon a {
+#soon a {
   text-decoration: none;
   color: white;
   cursor: pointer;
 }
 
 @media(max-width: 940px) {
-  .soon {
+  #soon {
     font-size: 25px;
   }
-  .banner {
+  #banner {
     height: 150px;
     padding-top: 50px;
   }
